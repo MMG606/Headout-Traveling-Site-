@@ -1,0 +1,131 @@
+.main-carousel {
+  padding: 10px;
+  margin: 1px;
+}
+
+.main-carousel .cell {
+  width: 15%;
+  margin: 8px 8px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .main-carousel .cell {
+    width: 17%;
+    margin: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-carousel .cell {
+    width: 30%;
+    margin: 8px 6px;
+  }
+}
+
+.main-carousel .cell:hover {
+  top: -0.5em;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-carousel .cell img {
+  border-radius: 0.4em;
+  width: 100%;
+}
+
+.carousel2 {
+  padding: 10px;
+  margin: 1px;
+}
+
+.carousel2 .cell {
+  width: 24%;
+  margin: 10px 7px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel2 .cell {
+    width: 30%;
+    margin: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel2 .cell {
+    width: 45%;
+    margin: 10px 10px;
+  }
+}
+
+.carousel2 .cell:hover {
+  top: -0.5em;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel2 .cell img {
+  border-radius: 0.4em;
+  width: 100%;
+}
+
+.carousel3 {
+  padding-bottom: 10px;
+  margin: 1px;
+}
+
+.carousel3 .cell {
+  padding: auto;
+  width: 19%;
+  margin: 8px 7px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel3 .cell {
+    width: 30%;
+    margin: 10px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel3 .cell {
+    width: 30%;
+    margin: 10px 5px;
+  }
+}
+
+.carousel3 .cell:hover {
+  top: -0.5em;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.carousel3 .cell img {
+  border-radius: 0.4em;
+  width: 100%;
+}
+
+.page2-carousel {
+  padding: 5px;
+  margin: 1px;
+}
+
+.page2-carousel .cell {
+  width: 15%;
+  margin: 8px 8px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .page2-carousel .cell {
+    width: 30%;
+  }
+}
+
+.page2-carousel .cell img {
+  border-radius: 0.4em;
+  width: 100%;
+}
+/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,24 @@
+.cell {
+    padding-top: 50px;
+    width: 20%;
+    margin: 0 8px;
+    overflow: hidden;
+    &:hover {}
+    img {
+        border-radius: 10px;
+        width: 100%;
+        //object-fit: cover;
+    }
+}
+
+.main-carousel {
+    align-content: center;
+}
+
+.mainbody {
+    max-width: 1400px;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+}
